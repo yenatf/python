@@ -4,6 +4,7 @@ from termcolor import cprint
 from win32com.client import Dispatch
 
 
+
 def speak(str):
     tell = Dispatch("SAPI.spvoice")
     tell.speak(str)
